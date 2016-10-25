@@ -366,7 +366,7 @@ blockquote footer {
   height: 400px;
 }
 .lead-photo {
-  background: url('../images/food-salad-healthy-colorful.jpg') no-repeat center center scroll;
+  background: url('../assets/food-salad-healthy-colorful.jpg') no-repeat center center scroll;
   height: 400px;
 }
 .page-indent {
@@ -503,7 +503,7 @@ section {
   font-size: 17px;
 }
 .bg-pattern {
-  background-image: url("../images/pattern.png");
+  background-image: url("../assets/pattern.png");
   color: #fff;
 }
 .http-error {
