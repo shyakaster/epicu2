@@ -8,7 +8,8 @@
                         <div class="blog-post-header">
                             <p class="categories"><a href="#">cabbage</a> <a href="#">spring</a> <a href="#">vegetarian</a>
                             </p>
-                            <h2><a href="blog-post.html">Lunch table</a></h2>
+                        <!-- <h2><a href="blog-post.html">Lunch table</a></h2> -->
+                            <h2><%= link_to "Lunch table", blog_show_path(:id)%></h2>
                             <div class="row">
                                 <div class="col-sm-6 blog-post-author">
                                     <i class="fa fa-user" aria-hidden="true"></i> <a href="#">Jean Dow</a>
@@ -25,7 +26,7 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/blog-thumb-2.jpg" alt="" class="img-responsive">
+                    <img src="/assets/blog-thumb-2.jpg" alt="" class="img-responsive">
                     <div class="blog-post animateOnScroll" data-animation="fadeInUp">
                         <div class="blog-post-header">
                             <p class="categories"><a href="#">spring</a> <a href="#">vegetarian</a>
@@ -47,7 +48,7 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/blog-thumb-1.jpg" alt="" class="img-responsive">
+                    <img src="/assets/blog-thumb-1.jpg" alt="" class="img-responsive">
                     <div class="blog-post animateOnScroll" data-animation="fadeInUp">
                         <div class="blog-post-header">
                             <p class="categories"><a href="#">cabbage</a> <a href="#">spring</a> <a href="#">vegetarian</a>
@@ -69,7 +70,7 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/blog-thumb-2.jpg" alt="" class="img-responsive">
+                    <img src="/assets/blog-thumb-2.jpg" alt="" class="img-responsive">
                     <div class="blog-post animateOnScroll" data-animation="fadeInUp">
                         <div class="blog-post-header">
                             <p class="categories"><a href="#">spring</a> <a href="#">vegetarian</a>
@@ -91,7 +92,7 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/blog-thumb-1.jpg" alt="" class="img-responsive">
+                    <img src="/assets/blog-thumb-1.jpg" alt="" class="img-responsive">
                     <div class="blog-post animateOnScroll" data-animation="fadeInUp">
                         <div class="blog-post-header">
                             <p class="categories"><a href="#">cabbage</a> <a href="#">spring</a> <a href="#">vegetarian</a>
@@ -113,7 +114,7 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/blog-thumb-2.jpg" alt="" class="img-responsive">
+                    <img src="/assets/blog-thumb-2.jpg" alt="" class="img-responsive">
                     <div class="blog-post animateOnScroll" data-animation="fadeInUp">
                         <div class="blog-post-header">
                             <p class="categories"><a href="#">spring</a> <a href="#">vegetarian</a>
@@ -180,7 +181,7 @@
                     <h3>Recent posts</h3>
                     <div class="row recent-post">
                         <div class="col-sm-5">
-                            <img src="images/recent-post-1.jpg" alt="" class="img-responsive">
+                            <img src="/assets/recent-post-1.jpg" alt="" class="img-responsive">
                         </div>
                         <div class="col-sm-7 recent-text">
                             <h5><a href="blog-post.html">Lorem ipsum dolor sit</a></h5>
@@ -189,7 +190,7 @@
                     </div>
                     <div class="row recent-post">
                         <div class="col-sm-5">
-                            <img src="images/recent-post-2.jpg" alt="" class="img-responsive">
+                            <img src="/assets/recent-post-2.jpg" alt="" class="img-responsive">
                         </div>
                         <div class="col-sm-7 recent-text">
                             <h5><a href="blog-post.html">Aenean tincidunt rhoncus metus</a></h5>
@@ -198,7 +199,7 @@
                     </div>
                     <div class="row recent-post">
                         <div class="col-sm-5">
-                            <img src="images/recent-post-1.jpg" alt="" class="img-responsive">
+                            <img src="/assets/recent-post-1.jpg" alt="" class="img-responsive">
                         </div>
                         <div class="col-sm-7 recent-text">
                             <h5><a href="blog-post.html">Lorem ipsum dolor sit</a></h5>
@@ -232,7 +233,7 @@
                 </div>
                 <div class="block">
                     <h3>About</h3>
-                    <img src="images/about.jpg" alt="" class="img-responsive">
+                    <img src="/assets/about.jpg" alt="" class="img-responsive">
                     <div class="text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis pellentesque nunc, in rutrum velit. Integer finibus laoreet lectus at hendrerit.</p>
                     </div>
@@ -259,7 +260,6 @@
             </aside>
         </div>
     </div>
-    <%= render 'layouts/partials/footer'%>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>

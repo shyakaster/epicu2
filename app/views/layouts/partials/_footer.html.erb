@@ -5,7 +5,8 @@
 				<div class="row-xs-12">
 					<div class="divider"></div>
 					<div class="text-center">
-						<a href="/welcome/index"><img src="/assets/logo.png" alt="" class="logo">
+					<%= link_to(image_tag("/assets/logo.png"), root_path, class:'logo', alt:'')%>
+						<!-- <a href="/welcome/index"><img src="/assets/logo.png" alt="" class="logo"> -->
 						</a>
 					</div>
 				</div>
@@ -15,9 +16,10 @@
 					<ul class="footer-links">
 						<li><a href="#">Privacy Policy</a>
 						</li>
-						<li><a href="blog-index.html">Blog</a>
+						<!-- <li><a href="/blog/index">Blog</a> -->
+						<li><%= link_to "Blog", blog_index_path%></li>
 						</li>
-						<li><a href="contact.html">Contact</a>
+						<li><a href="/pages/contact">Contact</a>
 						</li>
 					</ul>
 				</div>
